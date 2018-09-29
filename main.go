@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/angao/gin-xorm-admin/db"
-	"github.com/angao/gin-xorm-admin/router"
+	_ "./db"
+	"./router"
 )
 
 func main() {
